@@ -1,0 +1,152 @@
+body {
+  margin: 0px;
+  --main-orange: rgb(246, 193, 0);
+  --opac-orange: rgba(254, 251, 227, 0.95);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  padding-bottom: 200px;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--opac-orange);
+
+  align-items: center;
+  position: sticky;
+  top: 0px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+#home,
+#menu,
+#about {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: var(--main-orange);
+  font-size: 20px;
+  border: 0px;
+  box-shadow: 0px 0px 1px rgb(243, 193, 11);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+#restTitleDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 0px;
+}
+
+#restTitleDiv h1 {
+  font-size: 70px;
+  color: var(--main-orange);
+}
+
+#homeContentDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pizzaImage {
+  height: 500px;
+  border-radius: 1000px;
+}
+
+tr {
+  height: 50px;
+}
+
+th,
+td {
+  width: 200px;
+  font-size: 30px;
+  text-align: center;
+}
+
+th {
+  padding: 0px;
+}
+
+#openingHoursDiv {
+  display: flex;
+  justify-content: center;
+}
+
+#tableRow7 {
+  background-color: var(--main-orange);
+}
+
+table {
+  border-spacing: 0px;
+  background-color: var(--opac-orange);
+  margin: 100px;
+}
+
+#content h2 {
+  text-align: center;
+}
+
+#menuDiv {
+  background-color: rgba(250, 242, 191, 0.95);
+  width: 70%;
+  align-self: center;
+  padding: 100px 30px;
+  border-radius: 10px;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+#menuDiv h2 {
+  text-decoration: underline;
+}
+
+ul {
+  text-align: center;
+  line-height: 50px;
+}
+
+li {
+  list-style-type: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#restaurant {
+  height: 600px;
+  border-radius: 2%;
+}
+
+#aboutDiv {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
